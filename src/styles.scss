@@ -1,1 +1,56 @@
-/* You can add global styles to this file, and also import other style files */
+@import "variables.scss";
+
+html,
+body {
+  height: 100%;
+  // background-color: $backgroundColor;
+}
+
+app-main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+body {
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  padding: 0 50px;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
